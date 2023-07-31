@@ -4,13 +4,13 @@
 
 The app can be installed by cloning the git repository
 
-```
-git clone https://github.com/michaelparkadze/angular-ecommerce-app.git folder-name
+```bash
+git clone https://github.com/asimsharf/ecommerce-angular.git 
 ```
 
 Then cd into both directories and run npm install
 
-```
+```bash
 cd folder-name
 cd backend
 npm run install
@@ -25,13 +25,13 @@ After the entire installation you need to run the server and the client by runni
 
 **backend**
 
-```
+```bash
 npm run dev
 ```
 
 **client**
 
-```
+```bash
 ng serve
 ```
 
@@ -49,7 +49,7 @@ Create a folder called env in the root of the backend directory and create a dev
 
 **Change DB variables to match your MySQL setup**
 
-```
+```bash
 PORT=5000
 DB_HOST='localhost'
 DB_USER='root'
